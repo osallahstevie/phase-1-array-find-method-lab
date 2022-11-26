@@ -1,11 +1,11 @@
 // code your solution here
-function superbowlwin(record){
+function superbowlWin(record){
     let game = record.find((game)=>{
-        if(game.result==='w'){
+        if(game.result==='W'){
             return true;
         }
     })
     if(game){
-        return game.year
+        return game.year;
     }
 }
